@@ -1,53 +1,80 @@
-*{
+* {
   padding: 0;
   margin: 0;
   font-family: "Arimo", sans-serif;
 }
 
-
-body{
-
+body {
 }
 
 /* nev css */
 
 /* Common Button */
- 
-.common-button{
+
+.common-button {
   padding: 15px 40px;
   font-size: 16px;
-  color: #FFFFFF;
-  background-color: #1D4ED8;
+  color: #ffffff;
+  background-color: #1d4ed8;
   font-weight: Bold;
   border-radius: 10px;
   border: none;
-
 }
 nav {
-  display:flex;
+  display: flex;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
   max-width: 1200px;
   margin: auto;
   padding: 20px 0;
-
 }
 
-
-nav div ul{
-  display:flex;
-  gap:24px;
+nav div ul {
+  display: flex;
+  gap: 24px;
   list-style: none;
   justify-content: center;
-  align-items:center;
-
-
-  
+  align-items: center;
 }
 
-nav div ul a{
-  text-decoration:none;
+nav div ul a {
+  text-decoration: none;
   font-family: Arimo;
   color: #575757;
   font-size: 16px;
+}
+
+/* hero css */
+
+header {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/banner.jpg");
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: #ffffff;
+}
+.hero-content h1 {
+  font-size: 3.5rem;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 16px;
+}
+.hero-content p {
+  font-family: "Inter", sans-serif;
+  max-width: 600px;
+  margin: auto;
+  color: rgba(255, 255, 255, 0.9);
+  
+}
+.hero-content button {
+    margin-top: 278px;
 }
