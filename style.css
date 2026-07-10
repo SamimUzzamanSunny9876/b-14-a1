@@ -21,6 +21,47 @@ section {
   font-weight: Bold;
   border-radius: 10px;
   border: none;
+ 
+}
+.common-pro-button{
+   padding: 15px 0;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #1d4ed8;
+  font-weight: Bold;
+  border-radius: 10px;
+  border: none;
+ margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  margin-top: auto;
+
+}
+.outline-blue-button{
+    padding: 15px 0;
+  font-size: 16px;
+  color: #1d4ed8;
+  background-color: #ffffff;
+  font-weight: Bold;
+  border-radius: 10px;
+ border: 1px solid #1d4ed8; 
+ margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  margin-top: auto;
+}
+.outline-white-button{
+    padding: 15px 0;
+  font-size: 16px;
+  color: #0D1B2A;
+  background-color: #ffffff;
+  font-weight: Bold;
+  border-radius: 10px;
+ border: 1px solid #0D1B2A; 
+ margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  margin-top: auto;
 }
 nav {
   display: flex;
@@ -108,8 +149,10 @@ header {
 
 .speaker {
   border-radius: 10px;
-  /* border: 1px solid red; */
+  
   overflow: hidden;
+  background-color: #ffffff; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 .speaker img{
   width: 100%;
@@ -134,3 +177,97 @@ header {
 
 }
 
+
+/* Price card css */
+
+.card-container {
+  display: grid;
+  justify-content: center;
+  margin-top: 150px;
+ 
+}
+.card-container h1{
+  text-align: center;
+  font-size: 4rem;
+}
+.card-content {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 24px;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+.card{
+  padding: 40px 60px ;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+}
+.standard-card{ 
+
+  border: 1px solid  #E5E7EB;
+   
+}
+.pro-card{ 
+    background-color: #0D1B2A;
+ 
+  padding: 40px 60px ;
+    
+  
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+   
+}
+.card.pro-card ul li {
+  color: rgba(255, 255, 255, 0.85) !important; 
+}
+.notice {
+  color: #575757;
+  text-align: center;
+  font-size: 16px;
+  padding: 12px;
+}
+.plan-for {
+   color: #575757;
+   font-size: 20px;
+   padding-bottom: 20px;
+}
+.plan-name {
+   font-weight: semi-bold;
+   font-size: 25px;
+   color: #575757;
+
+}
+
+.card h2{
+  font-size: 44px;
+  font-weight: Bold;
+
+}
+
+.divider {
+  color: #E5E7EB;
+  margin: 10px;
+}
+.card ul{
+  text-align: left;
+  margin: 0 auto; 
+  padding-left: 20px; 
+  max-width: 100%;
+
+  
+}
+.card ul li{
+    color:#333333;
+}
+
+.card ul li::marker{
+  color: #2563EB;
+  font-size: 28px;
+}
+
+/* Prompt section  */
