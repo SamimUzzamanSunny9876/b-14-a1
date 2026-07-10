@@ -144,7 +144,8 @@ header {
    grid-template-columns: repeat(2, 1fr);
    gap: 34px;
    margin-top: 56px; 
-   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+   /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
+   border: none;
 
 }
 
