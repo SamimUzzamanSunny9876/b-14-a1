@@ -393,3 +393,27 @@ header {
     grid-template-columns: 1fr; 
   }
 }
+
+/* footer */
+footer{
+  background-color: #0D1B2A;
+}
+.footer-content{
+  margin: 0 100px;
+
+}
+
+
+.footer-top{
+  display:flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+.social-icon{
+  font-size: 2rem;
+  color:  rgba(255, 255, 255, 0.85) ;
+}
+.copyright{
+  color:  rgba(255, 255, 255, 0.85) ;
+
+}

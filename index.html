@@ -22,6 +22,10 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+
+    <!-- font awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <!-- Nav Section start -->
@@ -99,7 +103,7 @@
       <h1>Secure Your Spot</h1>
       <p class="notice">Early-bird pricing ends August 15, 2026.</p>
       <div class="card-content">
-        <div class="card standard-card ">
+        <div class="card standard-card">
           <p class="plan-name">Standard</p>
           <h2>$399</h2>
           <p class="plan-for">per person</p>
@@ -115,11 +119,11 @@
           <button class="outline-blue-button">Get Standard</button>
         </div>
         <div class="card pro-card">
-          <p class="plan-name" style="color: #2563EB;">Pro</p>
-          <h2 style="color: white;">$749</h2>
+          <p class="plan-name" style="color: #2563eb">Pro</p>
+          <h2 style="color: white">$749</h2>
           <p class="plan-for" style="rgba(255, 255, 255, 0.5);">per person</p>
           <hr class="divider" />
-          <ul >
+          <ul>
             <li>Everything in Standard</li>
             <li>Unlimited workshop access</li>
             <li>Speaker meet & greet</li>
@@ -127,7 +131,7 @@
             <li>Lifetime recording access</li>
             <li>1-on-1 mentorship (30 min)</li>
           </ul>
-          <button class="common-pro-button"> Get Pro</button>
+          <button class="common-pro-button">Get Pro</button>
         </div>
         <div class="card">
           <p class="plan-name">Team</p>
@@ -149,52 +153,86 @@
     </section>
     <!-- Price card ends -->
 
-    <!-- Tournament section (Prompt) -->
-     <section class="tournaments-container">
-  <div class="section-header">
-    <h2>Tournament Registration</h2>
-    <p class="notice">Slots are limited. Secure your spot in the DevConf-2026 arena!</p>
-  </div>
+    <!-- Tournament section (Prompt) STARTs -->
+    <section class="tournaments-container">
+      <div class="section-header">
+        <h2>Tournament Registration</h2>
+        <p class="notice">
+          Slots are limited. Secure your spot in the DevConf-2026 arena!
+        </p>
+      </div>
 
-  <div class="tournament-grid">
-    
-    <div class="tournament-card">
-      <div class="game-icon" style="background-color: #3B82F6;">👾</div>
-      <h3>CodeBreaker Speedrun</h3>
-      <p class="game-desc">Race against the clock to debug broken algorithms.</p>
-      <ul class="game-details">
-        <li><strong>Time:</strong> Day 1 @ 2:00 PM</li>
-        <li><strong>Format:</strong> Solo Player</li>
-        <li><strong>Prize:</strong> Mechanical Keyboard</li>
-      </ul>
-      <button class="game-register-btn">Register Solo</button>
-    </div>
+      <div class="tournament-grid">
+        <div class="tournament-card">
+          <div class="game-icon" style="background-color: #3b82f6">👾</div>
+          <h3>CodeBreaker Speedrun</h3>
+          <p class="game-desc">
+            Race against the clock to debug broken algorithms.
+          </p>
+          <ul class="game-details">
+            <li><strong>Time:</strong> Day 1 @ 2:00 PM</li>
+            <li><strong>Format:</strong> Solo Player</li>
+            <li><strong>Prize:</strong> Mechanical Keyboard</li>
+          </ul>
+          <button class="game-register-btn">Register Solo</button>
+        </div>
 
-    <div class="tournament-card">
-      <div class="game-icon" style="background-color: #8B5CF6;">⚔️</div>
-      <h3>CSS Battle Royale</h3>
-      <p class="game-desc">Replicate complex UI designs using only raw HTML/CSS.</p>
-      <ul class="game-details">
-        <li><strong>Time:</strong> Day 2 @ 1:00 PM</li>
-        <li><strong>Format:</strong> 1v1 Bracket</li>
-        <li><strong>Prize:</strong> 1-Year Pro Subscription</li>
-      </ul>
-      <button class="game-register-btn">Join Bracket</button>
-    </div>
+        <div class="tournament-card">
+          <div class="game-icon" style="background-color: #8b5cf6">⚔️</div>
+          <h3>CSS Battle Royale</h3>
+          <p class="game-desc">
+            Replicate complex UI designs using only raw HTML/CSS.
+          </p>
+          <ul class="game-details">
+            <li><strong>Time:</strong> Day 2 @ 1:00 PM</li>
+            <li><strong>Format:</strong> 1v1 Bracket</li>
+            <li><strong>Prize:</strong> 1-Year Pro Subscription</li>
+          </ul>
+          <button class="game-register-btn">Join Bracket</button>
+        </div>
 
-    <div class="tournament-card">
-      <div class="game-icon" style="background-color: #10B981;">🚀</div>
-      <h3>Startup Tycoon</h3>
-      <p class="game-desc">A resource management game. Build a startup, avoid burnout!</p>
-      <ul class="game-details">
-        <li><strong>Time:</strong> Day 3 @ 3:30 PM</li>
-        <li><strong>Format:</strong> Team (Up to 4)</li>
-        <li><strong>Prize:</strong> VIP Dinner with Speakers</li>
-      </ul>
-      <button class="game-register-btn">Register Team</button>
-    </div>
+        <div class="tournament-card">
+          <div class="game-icon" style="background-color: #10b981">🚀</div>
+          <h3>Startup Tycoon</h3>
+          <p class="game-desc">
+            A resource management game. Build a startup, avoid burnout!
+          </p>
+          <ul class="game-details">
+            <li><strong>Time:</strong> Day 3 @ 3:30 PM</li>
+            <li><strong>Format:</strong> Team (Up to 4)</li>
+            <li><strong>Prize:</strong> VIP Dinner with Speakers</li>
+          </ul>
+          <button class="game-register-btn">Register Team</button>
+        </div>
+      </div>
+    </section>
+    <!-- Tournament section (Prompt) ends -->
 
-  </div>
-</section>
+    <footer class="footer-container">
+      <div class="footer-content">
+        <div class="footer-top">
+          <div class="footer-logo">
+            <img src="./assets/footer-logo.png" alt="footer-logo" />
+          </div>
+          <div class="social-links">
+            <a href="" class="social-icon"
+              ><span><i class="fa-brands fa-square-x-twitter"></i></span
+            ></a>
+            <a href="" class="social-icon"
+              ><span><i class="fa-brands fa-square-github"></i> </span
+            ></a>
+            <a href="" class="social-icon"
+              ><span><i class="fa-brands fa-square-linkedin"></i></span
+            ></a>
+          </div>
+        </div>
+
+        <hr class="footer-divider" />
+
+        <div class="footer-bottom">
+          <p class="copyright">&copy; 2026 DevConf. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
