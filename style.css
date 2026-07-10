@@ -9,7 +9,7 @@ section {
   margin: auto;
 }
 
-/* nev css */
+
 
 /* Common Button */
 
@@ -63,11 +63,12 @@ section {
   text-align: center;
   margin-top: auto;
 }
+/* nev css */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1500px;
   margin: auto;
   padding: 20px 0;
 }
