@@ -207,6 +207,12 @@ header {
   height: 100%;
 
 }
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(37, 99, 235, 0.15);
+  
+  transition: transform 0.3s ease;
+}
 .standard-card{ 
 
   border: 1px solid  #E5E7EB;
@@ -270,4 +276,120 @@ header {
   font-size: 28px;
 }
 
-/* Prompt section  */
+/* Prompt section  css */
+
+
+.tournaments-container {
+  max-width: 1200px;
+  margin: 100px auto;
+  padding: 0 20px;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-header h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 10px;
+}
+
+.tournament-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* Individual Game Card */
+.tournament-card {
+  background-color: #0F172A; 
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #1E293B;
+}
+
+
+.tournament-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(37, 99, 235, 0.15);
+  border-color: #3B82F6;
+}
+
+
+.game-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin-bottom: 24px;
+}
+
+.tournament-card h3 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.game-desc {
+  color: #94A3B8;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+
+.game-details {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 32px 0;
+  border-top: 1px solid #1E293B;
+  padding-top: 20px;
+  flex-grow: 1; 
+}
+
+.game-details li {
+  color: #CBD5E1;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.game-details li strong {
+  color: #ffffff;
+  margin-right: 6px;
+}
+
+
+.game-register-btn {
+  width: 100%;
+  background-color: #2563EB;
+  color: #ffffff;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: auto;
+}
+
+.game-register-btn:hover {
+  background-color: #1D4ED8;
+}
+
+
+@media (max-width: 900px) {
+  .tournament-grid {
+    grid-template-columns: 1fr; 
+  }
+}
