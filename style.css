@@ -1,10 +1,12 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Arimo", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
-body {
+section {
+  max-width: 1200px;
+  margin: auto;
 }
 
 /* nev css */
@@ -57,6 +59,8 @@ header {
   display: grid;
   justify-content: center;
   align-items: center;
+ 
+
 }
 
 .hero-content {
@@ -65,16 +69,68 @@ header {
 }
 .hero-content h1 {
   font-size: 3.5rem;
-  font-family: "Inter", sans-serif;
+ 
   margin-bottom: 16px;
 }
 .hero-content p {
-  font-family: "Inter", sans-serif;
+
   max-width: 600px;
   margin: auto;
   color: rgba(255, 255, 255, 0.9);
-  
+
 }
 .hero-content button {
     margin-top: 278px;
 }
+
+/* Meet the speaker css */
+
+.meet-speaker-container{
+  display:grid;
+  justify-content: center;
+
+}
+.meet-speaker-container  h1{
+    text-align: center;
+    font-weight : Bold;
+    font-size: 2.5rem;
+    margin-top: 80px;
+}
+
+.meet-speaker-content {
+  display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 34px;
+   margin-top: 56px; 
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.speaker {
+  border-radius: 10px;
+  /* border: 1px solid red; */
+  overflow: hidden;
+}
+.speaker img{
+  width: 100%;
+  
+}
+
+.department {
+  color: #2563EB;
+ 
+  padding: 0 24px;
+  padding-top: 8px; 
+  font-weight: Bold;
+  font-size: 12px;
+}
+.speaker h3 {
+  padding: 8px 24px;
+}
+.role { 
+   padding: 4px 24px;
+  font-size: 14px;
+  color: #575757;
+
+}
+
