@@ -175,6 +175,7 @@ header {
    padding: 4px 24px;
   font-size: 14px;
   color: #575757;
+  padding-bottom: 25px;
 
 }
 
@@ -412,9 +413,9 @@ footer{
 }
 .social-icon{
   font-size: 2rem;
-  color:  rgba(255, 255, 255, 0.85) ;
+  color:  rgba(255, 255, 255, 0.5) ;
 }
 .copyright{
-  color:  rgba(255, 255, 255, 0.85) ;
+  color:  rgba(255, 255, 255, 0.5) ;
 
 }
